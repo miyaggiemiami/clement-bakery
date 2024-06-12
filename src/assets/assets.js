@@ -18,8 +18,8 @@ import muffin2 from './muffin2.avif'
 import muffin3 from './muffin3.jpeg'
 import snailrolls from './snailrolls.jpeg'
 import tomatoepizza from './tomatoepizza.jpeg'
-import basket from './basket.jpeg'
-import search from './search.jpeg'
+import basket from './basket.png'
+import search from './search.png'
 
 export default {
     logo,
