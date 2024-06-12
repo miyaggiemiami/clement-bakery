@@ -18,6 +18,8 @@ import muffin2 from './muffin2.avif'
 import muffin3 from './muffin3.jpeg'
 import snailrolls from './snailrolls.jpeg'
 import tomatoepizza from './tomatoepizza.jpeg'
+import basket from './basket.jpeg'
+import search from './search.jpeg'
 
 export default {
     logo,
@@ -38,6 +40,8 @@ export default {
     muffin2,
     muffin3,
     snailrolls,
-    tomatoepizza
+    tomatoepizza,
+    basket,
+    search
 };
 
