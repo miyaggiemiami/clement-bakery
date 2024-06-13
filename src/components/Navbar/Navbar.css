@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Julius+Sans+One&display=swap');
+
+
 body {
     min-height: 100vh;
 }
@@ -5,6 +8,7 @@ body {
 a {
     text-decoration: none;
     color: inherit;
+    font-family: 'Julius Sans One', sans-serif;
     
 }
 
@@ -64,4 +68,6 @@ a {
     right: -8px;
 
 }
+
+
 
