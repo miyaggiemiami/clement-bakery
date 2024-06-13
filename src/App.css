@@ -20,3 +20,7 @@ a {
   text-decoration: none;
   color: inherit;
 }
+
+.navbar .active {
+  padding-bottom:4px solid #333;
+}

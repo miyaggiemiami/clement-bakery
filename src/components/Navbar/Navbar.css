@@ -5,6 +5,7 @@ body {
 a {
     text-decoration: none;
     color: inherit;
+    
 }
 
 .navbar {
@@ -27,7 +28,7 @@ a {
     display: flex;
     list-style: none;
     gap: 23px;
-    color: rgb(0, 132, 132);
+    color: #9b673c;
 
 }
 
@@ -44,7 +45,7 @@ a {
 
 .navbar .active{
     padding-bottom: 3px;
-    border-bottom: 1px solid red;
+    border-bottom: 2px solid #9b673c;
 }
 
 .navbar-search-icon {
@@ -52,10 +53,13 @@ a {
 
 }
 
-navbar-search-icon .dot {
+.navbar-search-icon .dot {
     position: absolute;
-    min-width: 10px;
-    min-height: 10px;
-    background-color: #333;
-    
+    min-width: 15px;
+    min-height: 15px;
+    background-color: #9b673c;
+    fill: #9b673c;
+    border-radius: 10px;
+
 }
+
