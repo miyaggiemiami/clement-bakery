@@ -20,6 +20,7 @@ import snailrolls from './snailrolls.jpeg'
 import tomatoepizza from './tomatoepizza.jpeg'
 import basket from './basket.png'
 import search from './search.png'
+import background from './background.jpeg'
 
 export default {
     logo,
@@ -42,6 +43,7 @@ export default {
     snailrolls,
     tomatoepizza,
     basket,
-    search
+    search,
+    background
 };
 
