@@ -39,9 +39,18 @@
     min-width: 80px;
     background-color: transparent;
     transition: 0.2s;
-    box-shadow: 0 0 12px #333;
     margin-top:20px ;
-    
+    transition: transform 0.4s ease-in-out;
+    cursor: pointer;
+}
+
+.view-menu-list::-webkit-scrollbar{
+    display: none;
+}
+
+.view-menu-list-item img:hover {
+    box-shadow: 0 0 10px #664121a8;
+    transform: scale(1.2);
 }
 
 .view-menu-list-item {
@@ -75,4 +84,10 @@
   
   .right {
     right: calc(15%);
+  }
+
+  .view-menu-list-item .active {
+    border: 4px soloid red;
+    padding: 2px;
+
   }
