@@ -1,0 +1,78 @@
+.view-menu {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.view-menu h1 {
+    color: #9b673c;
+    font-weight: bold;
+    font-family: Julius Sans One ;
+    text-align: center;
+    margin-top: 3%;
+}
+
+.view-menu-text {
+    font-family: Julius Sans One ;
+    color: #3b3b3b;
+    text-align: center;
+    width: 500px;
+    margin: 0 auto;
+}
+
+.view-menu-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+    text-align: center;
+    margin: 20px 0px;
+    overflow-x: scroll;
+
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Julius+Sans+One&display=swap');
+.view-menu-list-item img {
+    width: 7.5vw;
+    height: 7.5vw;
+    object-fit: cover;
+    min-width: 80px;
+    border-radius: 50%;
+    transition: 0.2s;
+    box-shadow: 0 0 12px #333;
+    margin-top:20px ;
+    
+}
+
+.view-menu-list-item {
+    font-family: Julius Sans One ;
+}
+
+.home-logo {
+    display: block;
+    margin: 0 auto;
+    width: 300px;
+    margin-top: 30px;
+
+}
+
+.home-logo-container {
+    position: relative;
+    text-align: center;
+  }
+  
+  .vertical-line {
+    position: absolute;
+    top: 30%;
+    bottom: 30%;
+    width: 1px;
+    background-color: #33333399;
+  }
+  
+  .left {
+    left: 30%;
+  }
+  
+  .right {
+    right: 30%;
+  }
