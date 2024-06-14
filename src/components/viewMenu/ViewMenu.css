@@ -63,16 +63,16 @@
   
   .vertical-line {
     position: absolute;
-    top: 30%;
-    bottom: 30%;
-    width: 1px;
-    background-color: #33333399;
+    top: 0;
+    bottom: 0;
+    width: 2px;
+    background-color: #9b673c;
   }
   
   .left {
-    left: 30%;
+    left: calc(15%);
   }
   
   .right {
-    right: 30%;
+    right: calc(15%);
   }

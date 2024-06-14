@@ -8,7 +8,7 @@ body {
 a {
     text-decoration: none;
     color: inherit;
-    font-family: 'Julius Sans One', sans-serif;
+    
     
 }
 
@@ -27,7 +27,7 @@ a {
 }
 
 .navbar .logo {
-    width: 100px;
+    width: 65px;
 }
 
 .navbar-menu {
@@ -35,10 +35,14 @@ a {
     list-style: none;
     gap: 23px;
     color: #9b673c;
+    font-family: 'Julius Sans One', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
 
 }
 
 .search-icon, .basket-icon  {
+    fill: #9b673c;
     width: 32px;
 }
 
