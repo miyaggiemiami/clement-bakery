@@ -2,7 +2,7 @@ import React from 'react'
 import './ViewMenu.css'
 import assets, { menu_list } from '../../assets/assets'
 
-const ViewMenu = () => {
+const ViewMenu = ({category,setCategory}) => {
     return (
       <div className='view-menu' id='view-menu'>
         <div className="home-logo-container">
@@ -15,8 +15,8 @@ const ViewMenu = () => {
           <div className='view-menu-list'>
               {menu_list.map((item, index) => {
                   return(
-                      <div key={index} className="view-menu-list-item">
-                          <img src={item.menu_image} alt="" />
+                      <div onClick={()=>setCategory(prev=>prev===item.menu_name?"All":item.menu_name)} key={index} className="view-menu-list-item">
+                          <img className={category===item.menu_name?"active":""} src={item.menu_image} alt="" />
                           <p>{item.menu_name}</p>
                       </div>
                   )
