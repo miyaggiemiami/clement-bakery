@@ -63,7 +63,7 @@ export default {
 
 export const menu_list = [
     {
-        menu_name: "Cake",
+        menu_name: "Cakes",
         menu_image: cake_menu
     },
 
@@ -88,9 +88,31 @@ export const menu_list = [
     },
 
     {
-        menu_name: "Pie",
-        menu_image: pie_menu
+        menu_name: "Cakes",
+        menu_image: cake_menu
     },
+
+    {
+        menu_name: "Cookies",
+        menu_image: cookies_menu
+    },
+
+    {
+        menu_name: "Doughnuts",
+        menu_image: doughnuts_menu
+    },
+
+    {
+        menu_name: "Muffins",
+        menu_image: muffin_menu
+    },
+
+    {
+        menu_name: "Pizza",
+        menu_image: pizza_menu
+    },
+
+    
 ];
 
 
