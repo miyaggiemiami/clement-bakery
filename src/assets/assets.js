@@ -115,5 +115,43 @@ export const menu_list = [
     
 ];
 
+export const food_list = [
+    {
+        _id:"1",
+        name: "Chocolate Chip Cookies",
+        image: cakeberry,
+        price: 5.99,
+        description: "Freshly baked cookies with a hint of chocolate chips",
+        category: "Cakes"
+    },
+
+    {
+        _id:"2",
+        name: "Chocolate Chip Cookies",
+        image: cakeberry,
+        price: 5.99,
+        description: "Freshly baked cookies with a hint of chocolate chips",
+        category: "Cakes"
+    },
+
+    {
+        _id:"3",
+        name: "Chocolate Chip Cookies",
+        image: cakeberry,
+        price: 5.99,
+        description: "Freshly baked cookies with a hint of chocolate chips",
+        category: "Cakes"
+    },
+
+    {
+        _id:"4",
+        name: "Chocolate Chip Cookies",
+        image: cakeberry,
+        price: 5.99,
+        description: "Freshly baked cookies with a hint of chocolate chips",
+        category: "Cakes"
+    }
+]
+
 
 
