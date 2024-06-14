@@ -1,4 +1,4 @@
-import React from 'react'
+
 import logo from './logo.png'
 import applepie from './applepie.jpeg'
 import Bakedrolls from './Bakedrolls.jpeg'
@@ -22,6 +22,13 @@ import basket from './basket.png'
 import search from './search.png'
 import background from './background.jpeg'
 
+import cake_menu from './cake_menu.avif'
+import cookies_menu from './cookies_menu.jpeg'
+import doughnuts_menu from './doughnuts_menu.jpeg'
+import muffin_menu from './muffin_menu.jpeg'
+import pie_menu from './pizza_menu.jpeg'
+import pizza_menu from './pizza_menu.jpeg'
+
 export default {
     logo,
     applepie,
@@ -44,6 +51,47 @@ export default {
     tomatoepizza,
     basket,
     search,
-    background
+    background,
+    cake_menu,
+    cookies_menu,
+    doughnuts_menu,
+    muffin_menu,
+    pie_menu,
+    pizza_menu
+
 };
+
+export const menu_list = [
+    {
+        menu_name: "Cake",
+        menu_image: cake_menu
+    },
+
+    {
+        menu_name: "Cookies",
+        menu_image: cookies_menu
+    },
+
+    {
+        menu_name: "Doughnuts",
+        menu_image: doughnuts_menu
+    },
+
+    {
+        menu_name: "Muffins",
+        menu_image: muffin_menu
+    },
+
+    {
+        menu_name: "Pizza",
+        menu_image: pizza_menu
+    },
+
+    {
+        menu_name: "Pie",
+        menu_image: pie_menu
+    },
+];
+
+
 

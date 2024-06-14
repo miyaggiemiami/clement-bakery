@@ -31,4 +31,26 @@
   .headerContent h2 {
     font-weight: bold;
     font-size:max(4.5vw, 22px) ;
+    margin-bottom: 0;
+
   }
+
+  .headerContent p {
+    font-size: 1vw;
+    margin-bottom: 2vw;
+    color: whitesmoke;
+  }
+
+  .headerContent button {
+    border: none;
+    padding: 8px;
+    border-radius: 8px;
+    font-family: arial;
+    font-weight: bold;
+    transition: .5s ease-in-out;
+  }
+
+  .headerContent button:hover {
+    background-color: #333333d9;
+  }
+

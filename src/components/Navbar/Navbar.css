@@ -17,6 +17,8 @@ a {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-bottom: 0;
+
 }
 
 .app {
@@ -67,6 +69,10 @@ a {
     top: -8px;
     right: -8px;
 
+}
+
+.logo {
+    margin-bottom: 0;
 }
 
 
