@@ -127,15 +127,32 @@ export const food_list = [
 
     {
         _id:"2",
-        name: "Chocolate Chip Cookies",
-        image: cakeberry,
+        name: " Cookies",
+        image: cookies,
         price: 5.99,
-        description: "Freshly baked cookies with a hint of chocolate chips",
+        description: "Freshly baked, chewy, chocolate chip cookies with crunchy sweet edges",
         category: "Cakes"
     },
 
     {
         _id:"3",
+        name: "Chocolate Biscuits",
+        image: brownbiscuit,
+        price: 56,
+        description: "Freshly baked brown biscuits, perfect for dunking in tea."
+    },
+
+    {
+        _id:"4",
+        name: "Chocolate Muffins",
+        image: muffin2,
+        price: 5.99,
+        description: "Freshly baked cookies with a hint of chocolate chips",
+        category: "Cakes"
+    },
+
+    {
+        _id:"1",
         name: "Chocolate Chip Cookies",
         image: cakeberry,
         price: 5.99,
@@ -144,9 +161,96 @@ export const food_list = [
     },
 
     {
+        _id:"2",
+        name: " Cookies",
+        image: cookies,
+        price: 5.99,
+        description: "Freshly baked, chewy, chocolate chip cookies with crunchy sweet edges",
+        category: "Cakes"
+    },
+
+    {
+        _id:"3",
+        name: "Chocolate Biscuits",
+        image: brownbiscuit,
+        price: 56,
+        description: "Freshly baked brown biscuits, perfect for dunking in tea."
+    },
+
+    {
         _id:"4",
+        name: "Chocolate Muffins",
+        image: muffin2,
+        price: 5.99,
+        description: "Freshly baked cookies with a hint of chocolate chips",
+        category: "Cakes"
+    },
+
+    {
+        _id:"1",
         name: "Chocolate Chip Cookies",
         image: cakeberry,
+        price: 5.99,
+        description: "Freshly baked cookies with a hint of chocolate chips",
+        category: "Cakes"
+    },
+
+    {
+        _id:"2",
+        name: " Cookies",
+        image: cookies,
+        price: 5.99,
+        description: "Freshly baked, chewy, chocolate chip cookies with crunchy sweet edges",
+        category: "Cakes"
+    },
+
+    {
+        _id:"3",
+        name: "Chocolate Biscuits",
+        image: brownbiscuit,
+        price: 56,
+        description: "Freshly baked brown biscuits, perfect for dunking in tea."
+    },
+
+    {
+        _id:"4",
+        name: "Chocolate Muffins",
+        image: muffin2,
+        price: 5.99,
+        description: "Freshly baked cookies with a hint of chocolate chips",
+        category: "Cakes"
+    },
+
+    {
+        _id:"1",
+        name: "Chocolate Chip Cookies",
+        image: cakeberry,
+        price: 5.99,
+        description: "Freshly baked cookies with a hint of chocolate chips",
+        category: "Cakes"
+    },
+
+    {
+        _id:"2",
+        name: " Cookies",
+        image: cookies,
+        price: 5.99,
+        description: "Freshly baked, chewy, chocolate chip cookies with crunchy sweet edges",
+        category: "Cakes"
+    },
+
+    {
+        _id:"3",
+        name: "Chocolate Biscuits",
+        image: brownbiscuit,
+        price: 56,
+        description: "Freshly baked brown biscuits, perfect for dunking in tea."
+    },
+
+    {
+        _id:"4",
+        name: "Chocolate Muffins",
+        image: muffin2,
         price: 5.99,
         description: "Freshly baked cookies with a hint of chocolate chips",
         category: "Cakes"
