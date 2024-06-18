@@ -1,0 +1,54 @@
+.menu-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+    gap: 20px;
+  }
+  
+  .menu-item {
+    margin: 0;
+    width: 300px; /* updated width to match the image width */
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .menu-image {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px 10px 0 0;
+    box-shadow: 0 0 15px #333;
+  }
+  
+  .menu-item-info {
+    padding: 20px;
+  }
+  
+  @import url('https://fonts.googleapis.com/css2?family=Julius+Sans+One&display=swap');
+  .menu-item-info h1 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    font-family: Julius Sans One;
+  }
+  
+  .menu-item-info p {
+    font-size: 14px;
+    color: #666;
+    width: 300px; 
+    overflow-wrap: break-word; 
+    font-family: Julius Sans One;
+  }
+
+  h1 {
+    font-family: Julius Sans One;
+  }
+
+
+p {
+    font-family: Julius Sans One;
+    color: #666;
+    width: 300px;
+}

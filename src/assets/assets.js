@@ -118,10 +118,10 @@ export const menu_list = [
 export const food_list = [
     {
         _id:"1",
-        name: "Chocolate Chip Cookies",
+        name: "Chocolate and Strewbery Cake",
         image: cakeberry,
-        price: 5.99,
-        description: "Freshly baked cookies with a hint of chocolate chips",
+        price: 345.96,
+        description: "Moist chocolate cake loaded with fresh strawberries and rich frosting",
         category: "Cakes"
     },
 
@@ -138,7 +138,7 @@ export const food_list = [
         _id:"3",
         name: "Chocolate Biscuits",
         image: brownbiscuit,
-        price: 56,
+        price: 13.46,
         description: "Freshly baked brown biscuits, perfect for dunking in tea."
     },
 
@@ -146,115 +146,80 @@ export const food_list = [
         _id:"4",
         name: "Chocolate Muffins",
         image: muffin2,
-        price: 5.99,
-        description: "Freshly baked cookies with a hint of chocolate chips",
+        price: 8.99,
+        description: "Rich, velvety chocolate muffin with a soft, fluffy interior",
         category: "Cakes"
     },
 
     {
-        _id:"1",
+        _id:"5",
         name: "Chocolate Chip Cookies",
-        image: cakeberry,
+        image: cakeblackberry,
         price: 5.99,
         description: "Freshly baked cookies with a hint of chocolate chips",
         category: "Cakes"
     },
 
     {
-        _id:"2",
+        _id:"6",
         name: " Cookies",
-        image: cookies,
+        image: cakeblackGrape,
         price: 5.99,
         description: "Freshly baked, chewy, chocolate chip cookies with crunchy sweet edges",
         category: "Cakes"
     },
 
     {
-        _id:"3",
+        _id:"7",
         name: "Chocolate Biscuits",
-        image: brownbiscuit,
+        image: cakenut,
         price: 56,
         description: "Freshly baked brown biscuits, perfect for dunking in tea."
     },
 
     {
-        _id:"4",
+        _id:"8",
         name: "Chocolate Muffins",
-        image: muffin2,
+        image: cherrypie,
         price: 5.99,
         description: "Freshly baked cookies with a hint of chocolate chips",
         category: "Cakes"
     },
 
     {
-        _id:"1",
+        _id:"9",
         name: "Chocolate Chip Cookies",
-        image: cakeberry,
+        image: flowerbiscuit,
         price: 5.99,
         description: "Freshly baked cookies with a hint of chocolate chips",
         category: "Cakes"
     },
 
     {
-        _id:"2",
+        _id:"10",
         name: " Cookies",
-        image: cookies,
+        image: cakeMelted,
         price: 5.99,
         description: "Freshly baked, chewy, chocolate chip cookies with crunchy sweet edges",
         category: "Cakes"
     },
 
     {
-        _id:"3",
+        _id:"11",
         name: "Chocolate Biscuits",
-        image: brownbiscuit,
+        image: snailrolls,
         price: 56,
         description: "Freshly baked brown biscuits, perfect for dunking in tea."
     },
 
     {
-        _id:"4",
+        _id:"12",
         name: "Chocolate Muffins",
         image: muffin2,
         price: 5.99,
         description: "Freshly baked cookies with a hint of chocolate chips",
         category: "Cakes"
-    },
-
-    {
-        _id:"1",
-        name: "Chocolate Chip Cookies",
-        image: cakeberry,
-        price: 5.99,
-        description: "Freshly baked cookies with a hint of chocolate chips",
-        category: "Cakes"
-    },
-
-    {
-        _id:"2",
-        name: " Cookies",
-        image: cookies,
-        price: 5.99,
-        description: "Freshly baked, chewy, chocolate chip cookies with crunchy sweet edges",
-        category: "Cakes"
-    },
-
-    {
-        _id:"3",
-        name: "Chocolate Biscuits",
-        image: brownbiscuit,
-        price: 56,
-        description: "Freshly baked brown biscuits, perfect for dunking in tea."
-    },
-
-    {
-        _id:"4",
-        name: "Chocolate Muffins",
-        image: muffin2,
-        price: 5.99,
-        description: "Freshly baked cookies with a hint of chocolate chips",
-        category: "Cakes"
-    }
+    }   
 ]
 
 

@@ -1,24 +1,24 @@
-import React from 'react'
-import Navbar from './components/Navbar/Navbar'
-import { Route, Routes } from 'react-router-dom'
-import Home from './pages/Home/Home'
-import PlaceOrder from './pages/PlaceOrder/PlaceOrder'
-import ViewMenu from './components/viewMenu/ViewMenu'
-import Cart from './pages/Cart/Cart'
+import React from 'react';
+import { Routes, Route } from 'react-router-dom';
+import Navbar from './components/Navbar/Navbar';
+import AboutUs from './pages/About/About';
+import MenuPage from './pages/Menu/Menu'; // Renamed to MenuPage
+import Home from './pages/Home/Home';
+import Footer from './components/Footer/Footer';
 
 const App = () => {
   return (
-    <div className='app'>
-
+    <>
       <Navbar />
-      
       <Routes>
-        < Route path='/' element={<Home/>} />
-        < Route path='cart' element={<Cart/>} />
-        < Route path='order' element={<PlaceOrder/>} />
+        <Route path="/" element={<Home />} />
+        <Route path="/aboutus" element={<AboutUs />} />
+        <Route path="/menu" element={<MenuPage />} /> // Updated to use MenuPage
+        {/* other routes */}
       </Routes>
-    </div>
-  )
-}
+      <Footer />
+    </>
+  );
+};
 
-export default App
+export default App;

@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
 import './Navbar.css';
 import assets from '../../assets/assets';
+impo
 
 const Navbar = () => {
   const [menu, setMenu] = useState('Home');
@@ -14,10 +16,18 @@ const Navbar = () => {
       <img src={assets.logo} alt="clementaste-logo" className='logo'/>
 
       <ul className="navbar-menu">
-        <li className={menu === "Home" ? "active" : ""} onClick={() => handleMenuClick("Home")}>Home</li>
-        <li className={menu === "Menu" ? "active" : ""} onClick={() => handleMenuClick("Menu")}>Menu</li>
-        <li className={menu === "About" ? "active" : ""} onClick={() => handleMenuClick("About")}>About</li>
-        <li className={menu === "Contact" ? "active" : ""} onClick={() => handleMenuClick("Contact")}>Contact</li>
+        <li className={menu === "Home" ? "active" : ""}>
+          <Link to="/" onClick={() => handleMenuClick("Home")}>Home</Link>
+        </li>
+        <li className={menu === "Menu" ? "active" : ""}>
+          <Link to="/menu" onClick={() => handleMenuClick("Menu")}>Menu</Link>
+        </li>
+        <li className={menu === "About" ? "active" : ""}>
+          <Link to="/about" onClick={() => handleMenuClick("About")}>About</Link>
+        </li>
+        <li className={menu === "Contact" ? "active" : ""}>
+          <Link to="/contact" onClick={() => handleMenuClick("Contact")}>Contact</Link>
+        </li>
       </ul>
 
       <div className="navbar-right">
@@ -30,6 +40,5 @@ const Navbar = () => {
     </div>
   );
 };
-
 
 export default Navbar;
