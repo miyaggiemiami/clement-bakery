@@ -87,32 +87,6 @@ export const menu_list = [
         menu_image: pizza_menu
     },
 
-    {
-        menu_name: "Cakes",
-        menu_image: cake_menu
-    },
-
-    {
-        menu_name: "Cookies",
-        menu_image: cookies_menu
-    },
-
-    {
-        menu_name: "Doughnuts",
-        menu_image: doughnuts_menu
-    },
-
-    {
-        menu_name: "Muffins",
-        menu_image: muffin_menu
-    },
-
-    {
-        menu_name: "Pizza",
-        menu_image: pizza_menu
-    },
-
-    
 ];
 
 export const food_list = [
@@ -153,73 +127,58 @@ export const food_list = [
 
     {
         _id:"5",
-        name: "Chocolate Chip Cookies",
+        name: "Black Berry Cake",
         image: cakeblackberry,
-        price: 5.99,
-        description: "Freshly baked cookies with a hint of chocolate chips",
+        price: 150.75,
+        description: "Moist blackberry cake with sweetness",
         category: "Cakes"
     },
 
     {
         _id:"6",
-        name: " Cookies",
+        name: "Grape Cake",
         image: cakeblackGrape,
-        price: 5.99,
+        price: 78.54,
         description: "Freshly baked, chewy, chocolate chip cookies with crunchy sweet edges",
         category: "Cakes"
     },
 
     {
         _id:"7",
-        name: "Chocolate Biscuits",
+        name: "Nut Cake",
         image: cakenut,
-        price: 56,
-        description: "Freshly baked brown biscuits, perfect for dunking in tea."
+        price: 89.87,
+        description: "Moist Vanilla Walnut Delightful Treat"
     },
 
     {
         _id:"8",
-        name: "Chocolate Muffins",
+        name: "Cherry Pie",
         image: cherrypie,
-        price: 5.99,
-        description: "Freshly baked cookies with a hint of chocolate chips",
+        price: 233.97,
+        description: "Sweet tartness in every bite",
         category: "Cakes"
     },
 
     {
         _id:"9",
-        name: "Chocolate Chip Cookies",
+        name: "Flower Biscuits",
         image: flowerbiscuit,
-        price: 5.99,
-        description: "Freshly baked cookies with a hint of chocolate chips",
+        price: 12.45,
+        description: "Delicate petals on crunchy treats",
         category: "Cakes"
     },
 
     {
         _id:"10",
-        name: " Cookies",
+        name: " Melted Cake",
         image: cakeMelted,
-        price: 5.99,
-        description: "Freshly baked, chewy, chocolate chip cookies with crunchy sweet edges",
+        price: 332.94,
+        description: "Sweet gooey chocolatey messy disaster",
         category: "Cakes"
-    },
+    }
 
-    {
-        _id:"11",
-        name: "Chocolate Biscuits",
-        image: snailrolls,
-        price: 56,
-        description: "Freshly baked brown biscuits, perfect for dunking in tea."
-    },
 
-    {
-        _id:"12",
-        name: "Chocolate Muffins",
-        image: muffin2,
-        price: 5.99,
-        description: "Freshly baked cookies with a hint of chocolate chips",
-        category: "Cakes"
-    }   
 ]
 
 

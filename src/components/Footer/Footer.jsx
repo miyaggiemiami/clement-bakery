@@ -8,7 +8,7 @@ const Footer = () => {
       <div className="footer-content">
         <div className="footer-content-left">
           <img className='footer-logo' src={logo} alt="" />
-          <p>Clemntaste is a culinary experience that combines the freshness of citrus with the richness of sweet treats. Imagine biting into a juicy orange, only to discover a velvety chocolate center. This innovative flavor fusion will tantalize your taste buds and leave you craving more of its unique delight.</p>
+          <p className='footer-text'>Clemntaste is a culinary experience that combines the freshness of citrus with the richness of sweet treats. Imagine biting into a juicy orange, only to discover a velvety chocolate center. This innovative flavor fusion will tantalize your taste buds and leave you craving more of its unique delight.</p>
         </div>
         <div className="footer-content-center">
             <h2>Clementaste</h2>

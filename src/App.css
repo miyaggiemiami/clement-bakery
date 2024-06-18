@@ -18,5 +18,25 @@ a {
 
 .navbar .active {
   padding-bottom:4px solid #333;
+
+
+.app-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+
+@media only screen and (max-width: 768px) {
+  .app-container {
+    padding: 10px;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .app-container {
+    padding: 5px;
+  }
+}
 }
 
