@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import './Navbar.css';
 import assets from '../../assets/assets';
-impo
+
 
 const Navbar = () => {
   const [menu, setMenu] = useState('Home');

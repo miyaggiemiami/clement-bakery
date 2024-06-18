@@ -12,7 +12,7 @@ const App = () => {
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/aboutus" element={<AboutUs />} />
+        <Route path="/about" element={<AboutUs />} />
         <Route path="/menu" element={<MenuPage />} /> // Updated to use MenuPage
         {/* other routes */}
       </Routes>
